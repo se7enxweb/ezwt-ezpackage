@@ -2,6 +2,7 @@
 /**
  * eZ JS Core server call file for eZ Websitetoolbar
  *
+ * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
  * @copyright Copyright (C) eZ Systems AS.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  *
@@ -56,7 +57,7 @@ class ezwtServerCallFunctions
         if ( $http->hasPostVariable( 'ContentObjectID' ) )
         {
             $objectID = $http->postVariable( 'ContentObjectID' );
-            eZContentCacheManager::clearContentCacheIfNeeded( $objectID );
+            eZContentCacheManager::clearContentCache( $objectID );
         }
     }
 }

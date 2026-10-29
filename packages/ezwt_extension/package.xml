@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package version="1.1-0" development="false" install_type="install">
+<package version="5.3.0">
   <name>ezwt_extension</name>
   <summary>ezwt extension</summary>
   <description>ezwt extension</description>
   <vendor>eZ systems</vendor>
   <type value="extension"/>
   <ezpublish>
-    <version>4.2.0</version>
-    <named-version>4.2</named-version>
+    <version>6.0.15</version>
+    <named-version>6.0</named-version>
   </ezpublish>
   <packaging>
-    <timestamp>1241769735</timestamp>
+    <timestamp>1792887901</timestamp>
     <host>packages.ez.no</host>
   </packaging>
   <documents>
@@ -18,8 +18,8 @@
   </documents>
   <simple-files/>
   <version>
-    <number>1.1</number>
-    <release>0</release>
+    <number>6.0</number>
+    <release>17</release>
   </version>
   <licence>GPL</licence>
   <state>stable</state>

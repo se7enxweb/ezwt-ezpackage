@@ -1,111 +1,178 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension name="ezwt">
+  <file name="LICENSE" md5sum="09e5ab0a2578bb8948c4cf98eba08b02"/>
+  <file name="README" md5sum="77b9912141d06101af308e3bb862e1bf"/>
+  <file name="autoloads" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="ezcreateclasslistgroups.php" path="/autoloads" md5sum="ee2d61bc5d677daa9e22b8dbf358fdb6"/>
+  <file name="eztemplateautoload.php" path="/autoloads" md5sum="9629c2a5ac700a349d3167353dba84b5"/>
+  <file name="classes" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="ezwtservercallfunctions.php" path="/classes" md5sum="2de223ee8c3a4ef9969ae847d930b1be"/>
+  <file name="runnable" path="/classes" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="views" path="/classes/runnable" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="websitetoolbar" path="/classes/runnable/views" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="sort.php" path="/classes/runnable/views/websitetoolbar" md5sum="92746b17e5816e25ff3d697caf9a4d39"/>
+  <file name="websitetoolbar.php" path="/classes/runnable/views/websitetoolbar" md5sum="b197bb0dacaaa4a7a8e968215ee8f9a8"/>
+  <file name="composer.json" md5sum="7ae8a5deb61b828fd59ce9cf3487979e"/>
   <file name="design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="ezdemo" path="/design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="templates" path="/design/ezdemo" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="content" path="/design/ezdemo/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="datatype" path="/design/ezdemo/templates/content" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="edit" path="/design/ezdemo/templates/content/datatype" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="ezdate.tpl" path="/design/ezdemo/templates/content/datatype/edit" md5sum="222c65c6332d89533a6203a106cc2751"/>
+  <file name="ezdatetime.tpl" path="/design/ezdemo/templates/content/datatype/edit" md5sum="eadfeccafb99decc387df47bb9c50da4"/>
   <file name="standard" path="/design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="images" path="/design/standard" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="websitetoolbar" path="/design/standard/images" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="dark_back.png" path="/design/standard/images/websitetoolbar" md5sum="82eeaf68031a896d7d37a08725ab4f70"/>
+  <file name="diagonal_pattern.png" path="/design/standard/images/websitetoolbar" md5sum="a0087c99ca95d6d6aa41291698a06dac"/>
+  <file name="ez_logo_white_full.png" path="/design/standard/images/websitetoolbar" md5sum="171b53dde27e87e1e3a3660189ed9285"/>
+  <file name="ez_logo_white_long.png" path="/design/standard/images/websitetoolbar" md5sum="b13eb381bdaf4a0a758c49d9e3780392"/>
   <file name="ezwt-bc.gif" path="/design/standard/images/websitetoolbar" md5sum="a924db69a1ac25768cd446be6c9583ea"/>
   <file name="ezwt-bl.gif" path="/design/standard/images/websitetoolbar" md5sum="f744a9dba91eb180cbbe755eef3e5b43"/>
   <file name="ezwt-br.gif" path="/design/standard/images/websitetoolbar" md5sum="8376ffd45425e66b019924e2ae83d431"/>
   <file name="ezwt-button-bg.gif" path="/design/standard/images/websitetoolbar" md5sum="78ef68a7c6ff240573704d8aa1aa7aa1"/>
   <file name="ezwt-icon-add_translation-disabled.gif" path="/design/standard/images/websitetoolbar" md5sum="feba25da01dcb8cb23a39f3bd576e801"/>
   <file name="ezwt-icon-add_translation.gif" path="/design/standard/images/websitetoolbar" md5sum="bab20244bf767b9b23d8a76cb1f20765"/>
+  <file name="ezwt-icon-admin.png" path="/design/standard/images/websitetoolbar" md5sum="ae5658f990495563ccb34aeaaff1487e"/>
+  <file name="ezwt-icon-create.png" path="/design/standard/images/websitetoolbar" md5sum="8a68de6a4d87454ec7e9f7c061074acb"/>
   <file name="ezwt-icon-edit-disabled.gif" path="/design/standard/images/websitetoolbar" md5sum="3250f1bee0472287bd0802f2716186d8"/>
   <file name="ezwt-icon-edit.gif" path="/design/standard/images/websitetoolbar" md5sum="f130a6a56d20490fa7058ec8cfc6ef71"/>
+  <file name="ezwt-icon-edit.png" path="/design/standard/images/websitetoolbar" md5sum="26693b54d2226e155e8494b496c17d76"/>
   <file name="ezwt-icon-exit-disabled.gif" path="/design/standard/images/websitetoolbar" md5sum="0ca809bdc39f9b25a7390b70307ad7e7"/>
   <file name="ezwt-icon-exit.gif" path="/design/standard/images/websitetoolbar" md5sum="b58399ded072de6bf0d8b6ac37b6123f"/>
   <file name="ezwt-icon-export-disabled.gif" path="/design/standard/images/websitetoolbar" md5sum="00ab1b6bdc0c8a0d55b53abc694807ea"/>
   <file name="ezwt-icon-export.gif" path="/design/standard/images/websitetoolbar" md5sum="f76e992843de89bae71a30abfe3b6f1a"/>
+  <file name="ezwt-icon-export.png" path="/design/standard/images/websitetoolbar" md5sum="db86ce2e6e08888303e8210be4083411"/>
   <file name="ezwt-icon-import-disabled.gif" path="/design/standard/images/websitetoolbar" md5sum="e66ac3640f252011a73322ce9ddffb03"/>
   <file name="ezwt-icon-import.gif" path="/design/standard/images/websitetoolbar" md5sum="29a6f1647c921af0f08f1590d2b277a4"/>
+  <file name="ezwt-icon-import.png" path="/design/standard/images/websitetoolbar" md5sum="b49f5a02e199104b93afffa9c531e619"/>
   <file name="ezwt-icon-locations-disabled.gif" path="/design/standard/images/websitetoolbar" md5sum="543ce912276a04fd55b809d9a4fc7b00"/>
+  <file name="ezwt-icon-locations-disabled.png" path="/design/standard/images/websitetoolbar" md5sum="bffef22c083547f7c376e984f30e5d5f"/>
   <file name="ezwt-icon-locations.gif" path="/design/standard/images/websitetoolbar" md5sum="a9e9793f9456015c1bd3665746c706b6"/>
+  <file name="ezwt-icon-locations.png" path="/design/standard/images/websitetoolbar" md5sum="b37b9878dccce7ee72f9959479985017"/>
   <file name="ezwt-icon-move-disabled.gif" path="/design/standard/images/websitetoolbar" md5sum="31cdaf526f29c177c53d364ef01e8c68"/>
   <file name="ezwt-icon-move.gif" path="/design/standard/images/websitetoolbar" md5sum="e24e2304861bdab600e343baeea77667"/>
+  <file name="ezwt-icon-move.png" path="/design/standard/images/websitetoolbar" md5sum="b3bee8efd6f173e6874f3d23d209845d"/>
   <file name="ezwt-icon-new-disabled.gif" path="/design/standard/images/websitetoolbar" md5sum="5ef1b36a8f607dd7026a645b6fc3edfc"/>
   <file name="ezwt-icon-new.gif" path="/design/standard/images/websitetoolbar" md5sum="c1ad0dae773bc438481eb25f8d2be94a"/>
   <file name="ezwt-icon-objectstates.gif" path="/design/standard/images/websitetoolbar" md5sum="d693ddb077e60c331c1753e1d7a37245"/>
+  <file name="ezwt-icon-objectstates.png" path="/design/standard/images/websitetoolbar" md5sum="fbb4cfb96e4fd09de5b5fda3584de21c"/>
   <file name="ezwt-icon-preview-disabled.gif" path="/design/standard/images/websitetoolbar" md5sum="7cda5823c3078d0bc06ca3fd9f857109"/>
   <file name="ezwt-icon-preview.gif" path="/design/standard/images/websitetoolbar" md5sum="71e7ecef71bc1c64c31ccc8cdf65d6c8"/>
+  <file name="ezwt-icon-preview.png" path="/design/standard/images/websitetoolbar" md5sum="a681b2cdb9f55d060676863570a12733"/>
   <file name="ezwt-icon-publish-disabled.gif" path="/design/standard/images/websitetoolbar" md5sum="2ba7bbb884df6d0a4ed0ac92549b7165"/>
   <file name="ezwt-icon-publish.gif" path="/design/standard/images/websitetoolbar" md5sum="c3f54ca3bb58c15ec7a4893ea56ead5a"/>
   <file name="ezwt-icon-remove-disabled.gif" path="/design/standard/images/websitetoolbar" md5sum="bd9aacc47d0e0e8b5ec5d0e4219902ed"/>
   <file name="ezwt-icon-remove.gif" path="/design/standard/images/websitetoolbar" md5sum="c7e68f7b5bc8c7d2c5e2ad120906b863"/>
+  <file name="ezwt-icon-remove.png" path="/design/standard/images/websitetoolbar" md5sum="e94c8845e830d42f73871a0cd8662382"/>
   <file name="ezwt-icon-replace-disabled.gif" path="/design/standard/images/websitetoolbar" md5sum="ad046eea0af00026b27beba5b819900e"/>
+  <file name="ezwt-icon-replace-disabled.png" path="/design/standard/images/websitetoolbar" md5sum="3849e9b911de4344ef08817bd130d96e"/>
   <file name="ezwt-icon-replace.gif" path="/design/standard/images/websitetoolbar" md5sum="8c97f955f378e3f231318ecebd1c2402"/>
+  <file name="ezwt-icon-replace.png" path="/design/standard/images/websitetoolbar" md5sum="cd9791f340f453c77715a67a2b1c8f7e"/>
   <file name="ezwt-icon-sort.gif" path="/design/standard/images/websitetoolbar" md5sum="31882017182061e6cba9c4b64c6ef799"/>
+  <file name="ezwt-icon-sort.png" path="/design/standard/images/websitetoolbar" md5sum="f8150f660869181dc63ea3f9fc121bca"/>
+  <file name="ezwt-icon-translation-disabled.png" path="/design/standard/images/websitetoolbar" md5sum="f6eb9d8f67810a25b200ed4b5af90fd9"/>
+  <file name="ezwt-icon-translation.png" path="/design/standard/images/websitetoolbar" md5sum="29ba9618d17bc079c5dea87f95f2c0b1"/>
+  <file name="ezwt-icon-url.gif" path="/design/standard/images/websitetoolbar" md5sum="91ce52a54a30281d7e229938778dd6d8"/>
+  <file name="ezwt-icon-url.png" path="/design/standard/images/websitetoolbar" md5sum="152aef7a28ca35c02d2eee2faa845688"/>
   <file name="ezwt-icon-versions-disabled.gif" path="/design/standard/images/websitetoolbar" md5sum="33f58e88dd27cb30c60c0d82b90afd86"/>
   <file name="ezwt-icon-versions.gif" path="/design/standard/images/websitetoolbar" md5sum="bef3072d05ca7526ac290e15b534f334"/>
+  <file name="ezwt-icon-versions.png" path="/design/standard/images/websitetoolbar" md5sum="472c3c6a4fbf2c50a269342ab8eaa81d"/>
   <file name="ezwt-logo.gif" path="/design/standard/images/websitetoolbar" md5sum="29e3fd1a6d51c8d1c87c6e83e4ee8a34"/>
+  <file name="ezwt-logo.png" path="/design/standard/images/websitetoolbar" md5sum="c0146b181f9beb78d6ef43a2586bbb2b"/>
   <file name="ezwt-mc.gif" path="/design/standard/images/websitetoolbar" md5sum="872261ae9eec5381676cfd805912c4a9"/>
   <file name="ezwt-ml.gif" path="/design/standard/images/websitetoolbar" md5sum="56a2fc72fa708fecf2420566e2f3d01d"/>
   <file name="ezwt-mr.gif" path="/design/standard/images/websitetoolbar" md5sum="56a2fc72fa708fecf2420566e2f3d01d"/>
   <file name="ezwt-oo-logo.gif" path="/design/standard/images/websitetoolbar" md5sum="ceac0e30f3564e064806b209adb97b2c"/>
+  <file name="ezwt-oo-logo.png" path="/design/standard/images/websitetoolbar" md5sum="3a505677b081f4e816f6e78076d9a84d"/>
   <file name="ezwt-tc.gif" path="/design/standard/images/websitetoolbar" md5sum="a8d74c8429c2af4a95b93986ad7fcb46"/>
   <file name="ezwt-tl.gif" path="/design/standard/images/websitetoolbar" md5sum="3c68c2354b5abd353e597e038ad4a14f"/>
   <file name="ezwt-tr.gif" path="/design/standard/images/websitetoolbar" md5sum="8add68f7d901b8be5ff9ee3f805efc7a"/>
+  <file name="javascript" path="/design/standard" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="ezwt_datepicker.js" path="/design/standard/javascript" md5sum="fcca909c06a2cae8fd1c7c4af1a953d2"/>
+  <file name="ezwt_toolbar.js" path="/design/standard/javascript" md5sum="b2d692b031fe9f219b0dc2b712490eec"/>
+  <file name="ezwtsortdd.js" path="/design/standard/javascript" md5sum="d2dbc588c1abef7dc669234df64c646b"/>
   <file name="stylesheets" path="/design/standard" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="websitetoolbar.css" path="/design/standard/stylesheets" md5sum="a25284e987ab6345fc642a0ea4c61a81"/>
+  <file name="websitetoolbar.css" path="/design/standard/stylesheets" md5sum="fcd13682f593d635b5cd4da2c647bf65"/>
   <file name="templates" path="/design/standard" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="parts" path="/design/standard/templates" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="website_toolbar.tpl" path="/design/standard/templates/parts" md5sum="26b23477339de997ded21abb012edf98"/>
-  <file name="website_toolbar_edit.tpl" path="/design/standard/templates/parts" md5sum="871f26e2a9fa174a302765a744c408c8"/>
-  <file name="website_toolbar_versionview.tpl" path="/design/standard/templates/parts" md5sum="857145055b8ef1f6d3bbe9fe08911c95"/>
+  <file name="website_toolbar.tpl" path="/design/standard/templates/parts" md5sum="7d972de86dc461a9f5f5279ac47e13c2"/>
+  <file name="website_toolbar_edit.tpl" path="/design/standard/templates/parts" md5sum="7bd8ba08a70a0bf1fefb2815581d3f6f"/>
+  <file name="website_toolbar_versionview.tpl" path="/design/standard/templates/parts" md5sum="b8a7e3c506a3b420417068f7276150ab"/>
   <file name="websitetoolbar" path="/design/standard/templates/parts" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="help.tpl" path="/design/standard/templates/parts/websitetoolbar" md5sum="25779214306a4a52ffddc5d8609d8c88"/>
-  <file name="logo.tpl" path="/design/standard/templates/parts/websitetoolbar" md5sum="61c83b22cac4e1ebe27dbce5d536adbb"/>
-  <file name="object_states.tpl" path="/design/standard/templates/parts/websitetoolbar" md5sum="13e167af6f7adf22d4e5de68461f78c3"/>
-  <file name="sort.tpl" path="/design/standard/templates/parts/websitetoolbar" md5sum="c24b5b09d653de4c6646ad9bb4a4f7a5"/>
+  <file name="floating_toolbar.tpl" path="/design/standard/templates/parts/websitetoolbar" md5sum="7eb10906dffc9b98987ddbdec0288400"/>
+  <file name="help.tpl" path="/design/standard/templates/parts/websitetoolbar" md5sum="545670656afaebe27be47dd7b5cfc6e5"/>
+  <file name="link.tpl" path="/design/standard/templates/parts/websitetoolbar" md5sum="bbe73d670c347cf059eeef833808b2a4"/>
+  <file name="logo.tpl" path="/design/standard/templates/parts/websitetoolbar" md5sum="7e64d5e2041173b2dd4d22feefb2330d"/>
+  <file name="object_states.tpl" path="/design/standard/templates/parts/websitetoolbar" md5sum="e82bff07cc31685136b56675da7025e8"/>
+  <file name="sort.tpl" path="/design/standard/templates/parts/websitetoolbar" md5sum="90fc3d7ae008dc7413f6d63594fc75f6"/>
   <file name="doc" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="changelogs" path="/doc" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="1.0" path="/doc/changelogs" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="README" path="/doc" md5sum="77b9912141d06101af308e3bb862e1bf"/>
-  <file name="ezinfo.php" md5sum="9c0bf83055eb81922fca133b0d83d08c"/>
-  <file name="LICENSE" md5sum="0636e73ff0215e8d672dc4c32c317bb3"/>
+  <file name="1.2" path="/doc/changelogs" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="CHANGELOG-1.1-0-to-1.2-0" path="/doc/changelogs/1.2" md5sum="7a2cfa3b0c39441e44956997655b9150"/>
+  <file name="extension.xml" md5sum="20cf9c87f39c820668538dbcc1da0823"/>
+  <file name="ezinfo.php" md5sum="6c1298d34662c12602b2606884f9b531"/>
   <file name="modules" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="websitetoolbar" path="/modules" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="module.php" path="/modules/websitetoolbar" md5sum="8801f3a440b035aa3408cdb5e609177e"/>
-  <file name="sort.php" path="/modules/websitetoolbar" md5sum="d77c3389a9c29c644897e58e0e05072f"/>
-  <file name="websitetoolbar.php" path="/modules/websitetoolbar" md5sum="3320cf81ceb7e1ac81205f0d9f5524cc"/>
+  <file name="module.php" path="/modules/websitetoolbar" md5sum="b5e1c121f5ff073d1c2f68f4ee932ce2"/>
+  <file name="sort.php" path="/modules/websitetoolbar" md5sum="897aaabc3168583b25cd635bbda6a2b6"/>
+  <file name="websitetoolbar.php" path="/modules/websitetoolbar" md5sum="e66f3cf81a30729401984846eb3b1853"/>
   <file name="settings" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="design.ini.append.php" path="/settings" md5sum="26dd5c86639dc11cbb2fcbec80207f3f"/>
+  <file name="ezjscore.ini.append.php" path="/settings" md5sum="f0c219bc588b9415fcc9f636cab07519"/>
   <file name="module.ini.append.php" path="/settings" md5sum="8e82a9caeada0237c27e14d0afe97ec6"/>
-  <file name="websitetoolbar.ini.append.php" path="/settings" md5sum="454c66a8f7ec8bfeb360bde469595124"/>
+  <file name="site.ini.append.php" path="/settings" md5sum="9565bf65e49e141e76737c75c80e9151"/>
+  <file name="websitetoolbar.ini" path="/settings" md5sum="190b1aaf806b025a0ba4f4ae3da60dc0"/>
   <file name="translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="cat-ES" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/cat-ES" md5sum="801eec5680c88daab5bbb43688a44ca7"/>
+  <file name="translation.ts" path="/translations/cat-ES" md5sum="76713265859f743e34701a1571f93354"/>
   <file name="chi-CN" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/chi-CN" md5sum="3fa2bfae21987cb8c2efbcd37daca8fe"/>
+  <file name="translation.ts" path="/translations/chi-CN" md5sum="0ce3e5bbdf606344680c35fb82e0126d"/>
   <file name="chi-TW" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/chi-TW" md5sum="ec4a8c92b3dae86fef6ac4ab6363e204"/>
+  <file name="translation.ts" path="/translations/chi-TW" md5sum="a0512788b8d0471a139b10ed52990ae9"/>
+  <file name="cro-HR" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="translation.ts" path="/translations/cro-HR" md5sum="614a63aba1c4d3b3898f8dc0ae9f0367"/>
   <file name="cze-CZ" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/cze-CZ" md5sum="d4192d11f691343900fc9d36c83b42d3"/>
+  <file name="translation.ts" path="/translations/cze-CZ" md5sum="42aa84fddaf53fa0ba356c0b31acd7f3"/>
   <file name="dan-DK" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/dan-DK" md5sum="2ac72d6da0529d3c47566666d54915ab"/>
+  <file name="translation.ts" path="/translations/dan-DK" md5sum="8056f8a232da4b3f7f140d7959064d43"/>
   <file name="dut-NL" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/dut-NL" md5sum="40a79f19915063aa005177b90fc9c425"/>
+  <file name="translation.ts" path="/translations/dut-NL" md5sum="862be5e58268c82fde3b8a91a0c963ae"/>
+  <file name="eng-US" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="translation.ts" path="/translations/eng-US" md5sum="861e5125e92c121ea5692514fb9934e3"/>
   <file name="esl-ES" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/esl-ES" md5sum="86ff5182f9ec4b89dfe66df0700ffcff"/>
+  <file name="translation.ts" path="/translations/esl-ES" md5sum="4c367cae5cecdc77e8762804e50a7e05"/>
+  <file name="esl-MX" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="translation.ts" path="/translations/esl-MX" md5sum="6eb5460523e0a6efd7abef653872fe46"/>
   <file name="fin-FI" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/fin-FI" md5sum="842ecc13f2bb88574bf428fed4f8fc36"/>
+  <file name="translation.ts" path="/translations/fin-FI" md5sum="a69feabdeef1587039327c05d9d1b04f"/>
   <file name="fre-FR" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/fre-FR" md5sum="930fafa80866ca3a153269a0444ef8a0"/>
+  <file name="translation.ts" path="/translations/fre-FR" md5sum="17e83e26513f4670e5949927497345b9"/>
   <file name="ger-DE" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/ger-DE" md5sum="c72ad20f0eb618ce0b263c9eb42e685b"/>
+  <file name="translation.ts" path="/translations/ger-DE" md5sum="4cc6e80bcaaee622d7bcba660d50b18e"/>
+  <file name="heb-IL" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="translation.ts" path="/translations/heb-IL" md5sum="b7c57712b0d98b3fb36efebb9465e438"/>
   <file name="ita-IT" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/ita-IT" md5sum="7d6a1147d063c67ae0fed259890d10a6"/>
+  <file name="translation.ts" path="/translations/ita-IT" md5sum="c943ff8e736a77395c2cd66b82ab474e"/>
   <file name="jpn-JP" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/jpn-JP" md5sum="99cc8364bc43118b9f169c3a674b167f"/>
+  <file name="translation.ts" path="/translations/jpn-JP" md5sum="9ad460ec99c9a501e1f7c8596a255af8"/>
+  <file name="lat-VA" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="translation.ts" path="/translations/lat-VA" md5sum="5f6f2d3c6c21b7ae5ad889a0a06eb8de"/>
   <file name="nor-NO" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/nor-NO" md5sum="b9730f807378822298a0ae6c469a66c7"/>
+  <file name="translation.ts" path="/translations/nor-NO" md5sum="97e54b1d6a46b76d41eec919c968f14a"/>
   <file name="pol-PL" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/pol-PL" md5sum="7d2fe80cc53dd2bb3396847749d951f1"/>
+  <file name="translation.ts" path="/translations/pol-PL" md5sum="99eb3e0df4982810d3413ad0f225e57b"/>
   <file name="por-BR" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/por-BR" md5sum="53c6523d7e0a4d6b1912825db64d4942"/>
+  <file name="translation.ts" path="/translations/por-BR" md5sum="dbc5dc64a756b31599e6205cd60a6cd1"/>
   <file name="ser-SR" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/ser-SR" md5sum="51ea52c3c73f525e578340e5e154eb22"/>
+  <file name="translation.ts" path="/translations/ser-SR" md5sum="81f3ad8ab0747c0be47648a45f8d81c9"/>
   <file name="swe-SE" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/swe-SE" md5sum="a48578a3f4a18ecb7548d5f5be6be748"/>
+  <file name="translation.ts" path="/translations/swe-SE" md5sum="9582f0fe3ab94fc157c9b462eb46cb15"/>
+  <file name="tlh-QO" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="translation.ts" path="/translations/tlh-QO" md5sum="08ddec84d7e431c14148949ac7579de3"/>
+  <file name="tur-TR" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
+  <file name="translation.ts" path="/translations/tur-TR" md5sum="9f4b5d4ac4469df675889b54e2ce79ac"/>
   <file name="untranslated" path="/translations" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="translation.ts" path="/translations/untranslated" md5sum="c5b2c4d9ce12bc026a4a6ac2c3063594"/>
+  <file name="translation.ts" path="/translations/untranslated" md5sum="059ac8b79ac6ff0aff6976232e68a557"/>
 </extension>
