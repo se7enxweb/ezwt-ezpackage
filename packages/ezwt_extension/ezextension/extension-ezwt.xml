@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension name="ezwt">
-  <file name="LICENSE" md5sum="09e5ab0a2578bb8948c4cf98eba08b02"/>
+  <file name="LICENSE" md5sum="eee5f9135e5b658adce09e7e046c881f"/>
   <file name="README" md5sum="77b9912141d06101af308e3bb862e1bf"/>
   <file name="autoloads" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="ezcreateclasslistgroups.php" path="/autoloads" md5sum="ee2d61bc5d677daa9e22b8dbf358fdb6"/>
-  <file name="eztemplateautoload.php" path="/autoloads" md5sum="9629c2a5ac700a349d3167353dba84b5"/>
+  <file name="ezcreateclasslistgroups.php" path="/autoloads" md5sum="97e8f239fe331301870ad82fc17045ab"/>
+  <file name="eztemplateautoload.php" path="/autoloads" md5sum="3bbc4d8199ed38b355515bc99bc5580d"/>
   <file name="classes" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="ezwtservercallfunctions.php" path="/classes" md5sum="2de223ee8c3a4ef9969ae847d930b1be"/>
+  <file name="ezwtservercallfunctions.php" path="/classes" md5sum="c2cd5a5b116d6c3ee73aa6049c814c5f"/>
   <file name="runnable" path="/classes" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="views" path="/classes/runnable" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="websitetoolbar" path="/classes/runnable/views" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="sort.php" path="/classes/runnable/views/websitetoolbar" md5sum="92746b17e5816e25ff3d697caf9a4d39"/>
-  <file name="websitetoolbar.php" path="/classes/runnable/views/websitetoolbar" md5sum="b197bb0dacaaa4a7a8e968215ee8f9a8"/>
+  <file name="sort.php" path="/classes/runnable/views/websitetoolbar" md5sum="5af1e5415a04f570cbb1f9d7eb583199"/>
+  <file name="websitetoolbar.php" path="/classes/runnable/views/websitetoolbar" md5sum="7b075bb882a502bd2be4688642024e76"/>
   <file name="composer.json" md5sum="7ae8a5deb61b828fd59ce9cf3487979e"/>
   <file name="design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="ezdemo" path="/design" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
@@ -111,13 +111,13 @@
   <file name="changelogs" path="/doc" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="1.2" path="/doc/changelogs" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="CHANGELOG-1.1-0-to-1.2-0" path="/doc/changelogs/1.2" md5sum="7a2cfa3b0c39441e44956997655b9150"/>
-  <file name="extension.xml" md5sum="20cf9c87f39c820668538dbcc1da0823"/>
-  <file name="ezinfo.php" md5sum="6c1298d34662c12602b2606884f9b531"/>
+  <file name="extension.xml" md5sum="134b5f5b8880e47f97b6620b4aa793f2"/>
+  <file name="ezinfo.php" md5sum="c98b2cb6e14949d51132193de68e53a7"/>
   <file name="modules" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="websitetoolbar" path="/modules" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
-  <file name="module.php" path="/modules/websitetoolbar" md5sum="b5e1c121f5ff073d1c2f68f4ee932ce2"/>
-  <file name="sort.php" path="/modules/websitetoolbar" md5sum="897aaabc3168583b25cd635bbda6a2b6"/>
-  <file name="websitetoolbar.php" path="/modules/websitetoolbar" md5sum="e66f3cf81a30729401984846eb3b1853"/>
+  <file name="module.php" path="/modules/websitetoolbar" md5sum="4334c783b62600d547018ae229b69671"/>
+  <file name="sort.php" path="/modules/websitetoolbar" md5sum="0e58c8d82e5177ee4ea504d685ee22c0"/>
+  <file name="websitetoolbar.php" path="/modules/websitetoolbar" md5sum="18e305b54e3ae1b25471a3219954c77b"/>
   <file name="settings" md5sum="d41d8cd98f00b204e9800998ecf8427e" type="dir"/>
   <file name="design.ini.append.php" path="/settings" md5sum="26dd5c86639dc11cbb2fcbec80207f3f"/>
   <file name="ezjscore.ini.append.php" path="/settings" md5sum="f0c219bc588b9415fcc9f636cab07519"/>
